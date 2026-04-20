@@ -5,7 +5,6 @@ description: Aldo Menzione Award landing page.
 
 Aldo Menzione passed away in 2012.
 
-
 In December, 2014, the Executive Board of the *Frontier Detectors for Frontier Physics*
 association officially established the "Aldo Menzione" award, in memory of a colleague,
 a scientist, an inventor, one of the co-founders of the Pisa Meeting on Advanced Detectors
