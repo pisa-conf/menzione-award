@@ -1,6 +1,10 @@
 [project]
 site_name = "Menzione Award"
 site_url = "https://example.org"
+site_author = "Luca Baldini"
+copyright = "&copy; 2026 Frontier Detectors for Frontier Physics"
+docs_dir = "docs"
+site_dir = "site"
 extra_css = ["stylesheets/extra.css"]
 nav = [
   { Home = "index.md" },

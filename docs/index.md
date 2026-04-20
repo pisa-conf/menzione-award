@@ -13,3 +13,8 @@ and, above all, a friend.
 The prize is awarded in coincidence with the Pisa Meeting on Advanced Detectors,
 to distinguished scientists who have contributed to the development of detector
 techniques, hard and soft applications in Physics with outstanding achievements.
+
+A Search Committee is appointed by the Frontier Detectors for Frontier Physics
+Executive Board in order to select a research field and to identify possible candidates
+in that field. The final decision is taken during a plenary session of the
+Frontier Detectors for Frontier Physics general assembly.
