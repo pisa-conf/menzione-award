@@ -1,0 +1,46 @@
+.recipient {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1.2rem;
+  margin: 2.5rem 0;
+  align-items: start;
+}
+
+.recipient h3 {
+  margin-top: 0;
+}
+
+.recipient p {
+  margin-bottom: 0rem;
+}
+
+.motivation {
+  font-style: italic;
+}
+
+.affiliation {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: -0.5rem;
+}
+
+.headshot-wrapper {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 0rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0rem;
+}
+
+.headshot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

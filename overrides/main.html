@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  {% if page.meta.recipients %}
+    <div class="recipients">
+      {% for r in page.meta.recipients %}
+        <div class="recipient">
+          <div class="headshot-wrapper">
+            <img src="../../assets/images/recipients/{{ r.image }}" alt="{{ r.name }}" class="headshot">
+          </div>
+          <div>
+            <h3>{{ r.name }}</h3>
+            <p class="affiliation">{{ (r.affiliation) }}</p>
+            <p class="motivation"><em>{{ r.motivation }}</em></p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endblock %}

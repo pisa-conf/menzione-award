@@ -1,0 +1,19 @@
+[project]
+site_name = "Menzione Award"
+site_url = "https://example.org"
+extra_css = ["stylesheets/extra.css"]
+nav = [
+  { Home = "index.md" },
+  { Recipients = "recipients.md" },
+  { Editions = [
+      { "2024" = "editions/2024.md" },
+      { "2022" = "editions/2022.md" },
+      { "2018" = "editions/2018.md" },
+      { "2015" = "editions/2015.md" }
+    ] }
+]
+prize_name = "Menzione Prize"
+
+[project.theme]
+name = "material"
+custom_dir = "overrides"
